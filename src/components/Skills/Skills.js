@@ -36,7 +36,7 @@ export default function About() {
             </div>
             <div className="comfortable">
                 <h3>Comfortable</h3>
-                <div className="d-flex flex-row bd-highlight mb-3 justify-content-center align-items-center">
+                <div className="d-flex flex-row bd-highlight flex-wrap mb-3 justify-content-center align-items-center">
                     <div>
                         <img className="mx-4 my-3" style={{width:'50px'}} src={react} alt=""/>
                         <figcaption style={{marginTop:'4px'}}>React</figcaption>
@@ -69,7 +69,7 @@ export default function About() {
             </div>
             <div className="familiar mt-5">
                 <h3>Familiar</h3>
-                <div className="d-flex flex-row bd-highlight mb-3 justify-content-center align-items-center"> 
+                <div className="d-flex flex-wrap flex-row bd-highlight mb-3 justify-content-center align-items-center"> 
                      <div>
                         <img className="mx-4 my-3" style={{width:'50px'}} src={redux} alt=""/>
                         <figcaption style={{marginTop:'13px'}}>Redux</figcaption>
@@ -106,7 +106,7 @@ export default function About() {
             </div>
             <div className="tools mt-5">
                 <h3>Tools</h3>
-                <div className="d-flex flex-row bd-highlight mb-3 justify-content-center align-items-center"> 
+                <div className="d-flex flex-wrap flex-row bd-highlight mb-3 justify-content-center align-items-center"> 
                     <div>
                         <img className="mx-4 my-3" style={{width:'50px'}} src={vs} alt=""/>
                         <figcaption style={{marginTop:'4px'}}>Visual Studio Code</figcaption>
