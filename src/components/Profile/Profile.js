@@ -20,7 +20,7 @@ export default function Profile() {
                     <p className="description mt-3 mt-md-4 mb-4">I am a an enthusiastic JavaScript Programmer and professional MERN stack Developer.I love to code modern and responsive layouts for web application. I am experienced enough to work on any type of Web Application Based project.</p>
                     <a className="btn mr-5" href="https://drive.google.com/file/d/1R43WfT5hodWWYj7k-5SSzlMTOA8nYUf3/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>Get Resume</a>
                     
-                    <Link to="/about" className="btn spacedibo">About Me</Link>
+                    <Link to="/skills" className="btn spacedibo">Skillset</Link>
                 </div>
                 <div className="col-lg-5 d-flex justify-content-center animate__animated animate__fadeInRight">
                     <img className="img-fluid profile-image" src={profileImage} alt=""/>

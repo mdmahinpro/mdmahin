@@ -10,7 +10,7 @@ export default function Footer() {
                 <a href="https://medium.com/@mdmahin.pro" target="_blank" rel="noopener noreferrer"><i className="fab fa-medium-m"></i></a>
                 <a href="https://www.facebook.com/mahinbinraihanmukto" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
             </div>
-            <p className="main"><a href="https://github.com/mdmahinpro">Made with <span><i className="fas fa-heart"></i></span> by Mahin Bin Raihan <i class="fas fa-snowman"></i> {new Date().getFullYear()} </a></p>
+            <p className="main"><a href="https://github.com/mdmahinpro">Created By Mahin Bin Raihan <span><i className="fas fa-heart"></i></span> {new Date().getFullYear()} </a></p>
         </div>
     );
 }
