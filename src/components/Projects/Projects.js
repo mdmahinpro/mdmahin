@@ -105,9 +105,7 @@ export default function Projects() {
                 <h4 className="card-title">Travel Guru</h4>
                 <p className="card-text flex-grow-1">
                   It's a tour booking website. A customer can book a tour and
-                  see hotels based on their destination.Our database will save
-                  there date and serve them according to their booking. It's
-                  totally responsive for every device.
+                  see hotels based on their destination.
                 </p>
                 <div className="technology mb-4">
                   <span className="badge bg-secondary mx-1">React</span>
